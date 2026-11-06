@@ -1,0 +1,15 @@
+# Environment variables — never commit these
+.env
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# DB data file — contains real user data, keep off GitHub
+db.json
+
+# OS junk
+.DS_Store
+Thumbs.db
